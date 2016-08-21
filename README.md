@@ -15,6 +15,8 @@ Then open your browser to open <http://localhost:3000/>, and you can upload an i
 
 The uploaded image will be inside the `uploaded-images` directory of server side, with a timestamp added in the file name.
 
+Note: Don't forget to run `webpack` if you modify any js code under `public`.
+
 Articles
 -------
 
