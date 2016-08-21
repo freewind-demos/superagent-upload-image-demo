@@ -1,17 +1,11 @@
-Simplest Express Demo
-=====================
+Express Uploading Image Demo
+============================
 
 ```
 npm install
-```
-
-Run:
-
-```
 node index.js
 ```
 
-Then visit: 
+Then open your browser to open <http://localhost:3000/>, and you can upload an image now (note only image files can be selected).
 
-1. <http://localhost:3000>, you will see `Hello, world!`
-2. <http://localhost:3000/hello/Freewind>,, you will see `Hello, Freewind`
+The uploaded image will be inside the `uploaded-images` directory of server side, with a timestamp added in the file name.
